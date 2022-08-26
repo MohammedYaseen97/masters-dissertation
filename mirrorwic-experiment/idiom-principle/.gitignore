@@ -1,0 +1,8 @@
+*/__pycache__/
+*/*.pyc
+*/**/.ipynb_checkpoints/
+*.log
+runs/
+*/*/checkpoints
+local_models/*
+data/cc_news_data/tmp

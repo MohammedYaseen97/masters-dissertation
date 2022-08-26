@@ -1,0 +1,13 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+Traceback (most recent call last):
+  File "/data/acp20mym/idiom-principle/experiments/expM4/./run-train.py", line 39, in <module>
+    run_glue_f1_macro.main()
+  File "../../exp_helpers/run_glue_f1_macro.py", line 195, in main
+    model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+  File "/data/acp20mym/.conda/envs/acp20mym-idiomprinciple/lib/python3.9/site-packages/transformers/hf_argparser.py", line 191, in parse_args_into_dataclasses
+    obj = dtype(**inputs)
+  File "<string>", line 14, in __init__
+  File "../../exp_helpers/run_glue_f1_macro.py", line 138, in __post_init__
+    raise ValueError("Need either a GLUE task or a training/validation file.")
+ValueError: Need either a GLUE task or a training/validation file.

@@ -1,0 +1,11 @@
+mirrorwic-experiment/mirror-wic/tmp/
+mirrorwic-experiment/mirror-wic/input_models/
+mirrorwic-experiment/mirror-wic/**/*.pyc
+mirrorwic-experiment/idiom-principle/*/__pycache__/
+mirrorwic-experiment/idiom-principle/*/*.pyc
+mirrorwic-experiment/idiom-principle/*/**/.ipynb_checkpoints/
+mirrorwic-experiment/idiom-principle/*.log
+mirrorwic-experiment/idiom-principle/runs/
+mirrorwic-experiment/idiom-principle/*/*/checkpoints
+mirrorwic-experiment/idiom-principle/local_models/*
+mirrorwic-experiment/idiom-principle/data/cc_news_data/tmp

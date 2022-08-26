@@ -1,0 +1,2 @@
+origin	https://github.com/MohammedYaseen97/MirrorWiC (fetch)
+origin	https://github.com/MohammedYaseen97/MirrorWiC (push)

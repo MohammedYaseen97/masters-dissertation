@@ -1,0 +1,64 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+/data/acp20mym/.conda/envs/acp20mym-mirrorwic/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+WARNING:root:The pytorch-metric-learning testing module requires faiss. You can install the GPU version with the command 'conda install faiss-gpu -c pytorch'
+                        or the CPU version with 'conda install faiss-cpu -c pytorch'. Learn more at https://github.com/facebookresearch/faiss/blob/master/INSTALL.md
+INFO:src.metric_learning:Sap_Metric_Learning_pairwise! learning_rate=2e-05 weight_decay=0.01 use_cuda=True loss=infoNCE infoNCE_tau=0.04 use_miner=False miner_margin=0.2 type_of_triplets=all agg_mode=tokenmarker4layer
+08/05/2022 01:27:57 AM: [ Sap_Metric_Learning_pairwise! learning_rate=2e-05 weight_decay=0.01 use_cuda=True loss=infoNCE infoNCE_tau=0.04 use_miner=False miner_margin=0.2 type_of_triplets=all agg_mode=tokenmarker4layer ]
+INFO:root:using nn.DataParallel
+08/05/2022 01:27:57 AM: [ using nn.DataParallel ]
+INFO:root:Epoch 1/2
+08/05/2022 01:27:57 AM: [ Epoch 1/2 ]
+INFO:root:train!
+08/05/2022 01:27:57 AM: [ train! ]
+Namespace(agg_mode='tokenmarker4layer', amp=True, checkpoint_step=50, dropout_rate=0.4, epoch=2, infoNCE_tau=0.04, learning_rate=2e-05, loss='infoNCE', max_length=50, miner_margin=0.2, model_dir='bert-base-uncased', output_dir='../tmp/bert-base-uncased_mirror', pairwise=True, parallel=True, random_seed=33, save_checkpoint_all=False, train_batch_size=200, train_dir='../train_data/en_magpie.txt.mirror.wic.re60', type_of_triplets='all', use_cuda=True, use_miner=False, weight_decay=0.01)
+[MASK] token ID: 103
+miner: None
+loss: NTXentLoss(
+  (distance): CosineSimilarity()
+  (reducer): MeanReducer()
+)
+  0%|          | 0/240 [00:00<?, ?it/s]  0%|          | 0/240 [00:00<?, ?it/s]
+Warning, token id alter is not length 2
+tensor([  101,  1036,  1036,  2009,  2001,  1037,  2009,  2001,  2440,  3413,
+         2503,  2000,  2048, 21803,  2015,  9413,  1010,  2005,  1996, 11833,
+         2447,  2008,  2001,  2770,  2006,  2023, 21803, 25273,  2009,  2185,
+         2017,  2113,  1010, 14669,  2032,  2041,  1997,  2009,  1010,  2002,
+         1005,  1055,  2770,  2000,  1996,  1041,  7842, 15488,  7416,   102])
+['[CLS]', '`', '`', 'it', 'was', 'a', 'it', 'was', 'full', 'pass', 'inside', 'to', 'two', 'fullback', '##s', 'er', ',', 'for', 'the', 'southampton', 'player', 'that', 'was', 'running', 'on', 'this', 'fullback', 'shaded', 'it', 'away', 'you', 'know', ',', 'guiding', 'him', 'out', 'of', 'it', ',', 'he', "'", 's', 'running', 'to', 'the', 'e', 'sa', 'sm', '##ei', '[SEP]']
+{1031}
+{1033}
+[]
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+/data/acp20mym/.conda/envs/acp20mym-mirrorwic/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.23.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+WARNING:root:The pytorch-metric-learning testing module requires faiss. You can install the GPU version with the command 'conda install faiss-gpu -c pytorch'
+                        or the CPU version with 'conda install faiss-cpu -c pytorch'. Learn more at https://github.com/facebookresearch/faiss/blob/master/INSTALL.md
+INFO:src.metric_learning:Sap_Metric_Learning_pairwise! learning_rate=2e-05 weight_decay=0.01 use_cuda=True loss=infoNCE infoNCE_tau=0.04 use_miner=False miner_margin=0.2 type_of_triplets=all agg_mode=tokenmarker4layer
+08/05/2022 01:28:27 AM: [ Sap_Metric_Learning_pairwise! learning_rate=2e-05 weight_decay=0.01 use_cuda=True loss=infoNCE infoNCE_tau=0.04 use_miner=False miner_margin=0.2 type_of_triplets=all agg_mode=tokenmarker4layer ]
+INFO:root:using nn.DataParallel
+08/05/2022 01:28:27 AM: [ using nn.DataParallel ]
+INFO:root:Epoch 1/2
+08/05/2022 01:28:27 AM: [ Epoch 1/2 ]
+INFO:root:train!
+08/05/2022 01:28:27 AM: [ train! ]
+Namespace(agg_mode='tokenmarker4layer', amp=True, checkpoint_step=50, dropout_rate=0.4, epoch=2, infoNCE_tau=0.04, learning_rate=2e-05, loss='infoNCE', max_length=50, miner_margin=0.2, model_dir='bert-base-uncased', output_dir='../tmp/bert-base-uncased_mirror', pairwise=True, parallel=True, random_seed=33, save_checkpoint_all=False, train_batch_size=200, train_dir='../train_data/en_magpie_STR1.txt.mirror.wic.re60', type_of_triplets='all', use_cuda=True, use_miner=False, weight_decay=0.01)
+[MASK] token ID: 103
+miner: None
+loss: NTXentLoss(
+  (distance): CosineSimilarity()
+  (reducer): MeanReducer()
+)
+  0%|          | 0/240 [00:00<?, ?it/s]  0%|          | 0/240 [00:00<?, ?it/s]
+Warning, token id alter is not length 2
+tensor([  101,  1036,  1036,  2220,  1996,  2206,  2095,  1010,  1996,  3246,
+         4381,  2001,  8209,  2320,  2062,  2007, 11203,  2015,  1997,  6557,
+         1998, 22472,  2004,  2092,  2004,  2049,  4054,  6636,  1010,  1023,
+         1010,  3156,  7038,  1997,  9098,  1010,  1998,  2016,  2275,  9498,
+         2013,  1996,  7440,  2007,  2014, 17553, 12664,  2098,  2114,   102])
+['[CLS]', '`', '`', 'early', 'the', 'following', 'year', ',', 'the', 'hope', '##well', 'was', 'loaded', 'once', 'more', 'with', 'harvest', '##s', 'of', 'cotton', 'and', 'indigo', 'as', 'well', 'as', 'its', 'principal', 'cargo', ',', '9', ',', '500', 'pounds', 'of', 'tobacco', ',', 'and', 'she', 'set', 'sail', 'from', 'the', 'harbour', 'with', 'her', 'sails', 'reef', '##ed', 'against', '[SEP]']
+{1031}
+{1033}
+[]

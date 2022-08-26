@@ -1,0 +1,3 @@
+tmp/
+input_models/
+**/*.pyc
