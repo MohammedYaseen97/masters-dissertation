@@ -25,5 +25,4 @@ CUDA_VISIBLE_DEVICES=$1 python3 train.py \
 	--pairwise \
 	--dropout_rate ${dropout} \
 	--agg_mode ${agg} \
- 	# --save_checkpoint_all
-
+ 	--save_checkpoint_all

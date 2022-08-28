@@ -5,7 +5,7 @@ sys.path.append("../../exp_helpers")
 
 import run_glue_f1_macro
 
-exp_model = '../../local_models/bert-base-uncased_SequenceClassification_STR1_0.0_mirror'
+exp_model = '../../local_models/bert-base-uncased_SequenceClassification_STR1_0.1_mirror'
 exp_seed = 26
 exp_dir = './'
 model_checkpoint_dir = exp_dir + 'checkpoints'
